@@ -8,6 +8,9 @@
 # O valor em reais é:  560.0
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+cotação = float(input("Digite a cotação do Dollar: "))
+conversão = int(input(" Digite o valor em dollar a ser convertido para real: "))
+convertido = cotação*conversão
+print(f"O valor em real é {convertido}")
 
 

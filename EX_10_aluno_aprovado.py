@@ -17,3 +17,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+nota1= int(input("Digite sua primeira nota: "))
+nota2= int(input("Digite sua segunda nota: "))
+soma = nota1 + nota2
+media = soma / 2
+print(f"Aluno aprovado? {media >= 8}")

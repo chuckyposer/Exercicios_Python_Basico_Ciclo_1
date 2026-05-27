@@ -11,4 +11,7 @@
 # O seu IMC é: 26.83
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
-
+altura = float(input("Digite sua altura: "))
+peso = int(input("Digite o seu peso: "))
+imc = peso / (altura**2)
+print(f"O seu IMC é: {imc}.")

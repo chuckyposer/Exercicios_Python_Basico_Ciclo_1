@@ -1,3 +1,21 @@
+print("| ------------------------------ |")
+print("| ---------- CADASTRO ---------- ")
+print("| ------------------------------ |")
+
+nome = input("Nome: ")
+Idade = input("Idade: ")
+email = input("Email: ")
+senha = input("Senha: ")
+
+print(" | ------------------------------ |")
+print("| ----- USUÁRIO CADASTRADO ----- ")
+print("| ------------------------------ |")
+print(f"| Seja bem vindo(a) {nome}!")
+print(f"| Email: {email}")
+print("| ------------------------------ |")
+
+
+
 # Escreva um programa que pede ao usuário o nome, idade, e-mail e senha para um cadastro e depois exiba as informações na tela:
 
 # OUTPUT ESPERADO:

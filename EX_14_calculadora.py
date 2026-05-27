@@ -52,3 +52,36 @@
 
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
+print("|------------------------------|")
+print("| Calculadora")
+print("|------------------------------|")
+print("1 - Soma|\n 2 - Subtração\n| 3 - Multiplicação\n| 4 - Divisão ")
+opção = int(input("Escolha uma das opcões: "))
+if opção == 1:
+     numero1= int(input("Digite o primero número: "))
+     numero2= int(input("Digite o segundo número: "))
+     total= numero1 + numero2 
+     print(f"O resultado é {total}")
+
+elif opção == 2:
+    numero1= int(input("Digite o primero número: "))
+    numero2= int(input("Digite o segundo número: "))
+    total= numero1 - numero2
+    print(f"O resultado é {total}")
+
+elif opção == 3:
+     numero1= int(input("Digite o primero número: "))
+     numero2= int(input("Digite o segundo número: "))
+     total = numero1 ** numero2
+     print(f"O resultado é {total}")
+
+elif opção == 4:
+     numero1= int(input("Digite o primero número: "))
+     numero2= int(input("Digite o segundo número: "))
+     total = numero1 / numero2
+     print(f"O resultado é {total}")
+
+else:
+     print("Erro. Escolha uma opção válida.")
+
+

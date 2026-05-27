@@ -15,3 +15,8 @@
 
 # ------------------------------------------ ESCREVA SEU CÓDIGO ABAIXO -----------------------------------------------------------
 
+senha = int(input("Digite a senha: "))
+if senha == 1901:
+    print("Senha correta")
+else:
+    print("Senha incorreta")
